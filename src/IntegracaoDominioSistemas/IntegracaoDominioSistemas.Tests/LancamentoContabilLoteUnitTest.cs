@@ -6,9 +6,6 @@ namespace IntegracaoDominioSistemas.Tests
     [TestClass]
     public class LancamentoContabilLoteUnitTest
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
+        
     }
 }
