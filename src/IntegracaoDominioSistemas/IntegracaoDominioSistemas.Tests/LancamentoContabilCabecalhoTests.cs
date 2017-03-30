@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 namespace IntegracaoDominioSistemas.Tests
 {
     [TestClass()]
-    public class LancamentoContabilLoteCabecalhoTests
+    public class LancamentoContabilCabecalhoTests
     {
 
         [TestMethod()]
         public void ToStringTest()
         {
-            LancamentoContabilLoteCabecalho cabecalho = new LancamentoContabilLoteCabecalho()
+            LancamentoContabilCabecalho cabecalho = new LancamentoContabilCabecalho()
             {
                 CodigoEmpresa = 3,
                 CnpjEmpresa = "85844000000120",

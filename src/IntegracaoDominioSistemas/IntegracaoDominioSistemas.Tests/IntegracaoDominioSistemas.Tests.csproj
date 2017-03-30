@@ -51,8 +51,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="GerarLinhaTests.cs" />
-    <Compile Include="LancamentoContabilLoteCabecalhoTests.cs" />
-    <Compile Include="LancamentoContabilLoteUnitTest.cs" />
+    <Compile Include="LancamentoContabilCabecalhoTests.cs" />
+    <Compile Include="LancamentoContabilLoteTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

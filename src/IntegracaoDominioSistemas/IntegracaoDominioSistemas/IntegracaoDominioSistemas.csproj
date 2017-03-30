@@ -44,10 +44,11 @@
     <Compile Include="GerarLinha.cs" />
     <Compile Include="IGerarLinha.cs" />
     <Compile Include="ILinha.cs" />
+    <Compile Include="LancamentoContabil.cs" />
+    <Compile Include="LancamentoContabilCabecalho.cs" />
     <Compile Include="LancamentoContabilLote.cs" />
-    <Compile Include="LancamentoContabilLoteCabecalho.cs" />
-    <Compile Include="LancamentoContabilLoteLote.cs" />
-    <Compile Include="LancamentoContabilLoteLoteLancamento.cs" />
+    <Compile Include="LancamentoContabilLoteLancamento.cs" />
+    <Compile Include="LoteTipo.cs" />
     <Compile Include="NumericoAttribute.cs" />
     <Compile Include="PosicaoAttribute.cs" />
     <Compile Include="PosicaoInvalidaException.cs" />

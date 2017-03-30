@@ -2,7 +2,7 @@
 
 namespace IntegracaoDominioSistemas
 {
-    public class LancamentoContabilLoteCabecalho : ILinha
+    public class LancamentoContabilCabecalho : ILinha
     {        
 
         [Posicao(1, 2)]
@@ -40,14 +40,14 @@ namespace IntegracaoDominioSistemas
         [Posicao(53, 54)]
         public string ValorFixo2 { get { return "17"; } }
 
-        public LancamentoContabilLoteCabecalho()
+        public LancamentoContabilCabecalho()
             : this(new GerarLinha())
         {
 
         }
 
         IGerarLinha _gerarLinha;
-        public LancamentoContabilLoteCabecalho(IGerarLinha gerarLinha)
+        public LancamentoContabilCabecalho(IGerarLinha gerarLinha)
         {
             _gerarLinha = gerarLinha;
         }

@@ -6,10 +6,4 @@ using System.Threading.Tasks;
 
 namespace IntegracaoDominioSistemas
 {
-    public enum PreencherTipo
-    {
-        ZerosEsquerda,
-        ZerosDireita,
-        BrancosDireita,
-    }
 }

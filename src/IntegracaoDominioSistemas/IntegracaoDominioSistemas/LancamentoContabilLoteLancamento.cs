@@ -1,6 +1,6 @@
 ﻿namespace IntegracaoDominioSistemas
 {
-    public class LancamentoContabilLoteLoteLancamento
+    public class LancamentoContabilLoteLancamento
     {
 
     }

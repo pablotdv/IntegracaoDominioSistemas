@@ -67,6 +67,7 @@ namespace IntegracaoDominioSistemas
                     {
                         case PreencherTipo.ZerosEsquerda: valor = valor.PadLeft(tamanho, '0'); break;
                         case PreencherTipo.ZerosDireita: valor = valor.PadRight(tamanho, '0'); break;
+                        case PreencherTipo.BrancosDireita: valor = valor.PadRight(tamanho, ' '); break;
                     }
                 }
 

@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace IntegracaoDominioSistemas
 {
-    public enum PreencherTipo
+    public class LancamentoContabil
     {
-        ZerosEsquerda,
-        ZerosDireita,
-        BrancosDireita,
+        public LancamentoContabilCabecalho Cabecalho { get; set; }
+        public List<LancamentoContabilLote> Lotes { get; set; }
     }
 }

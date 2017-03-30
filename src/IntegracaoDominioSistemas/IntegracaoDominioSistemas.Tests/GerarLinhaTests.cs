@@ -124,6 +124,23 @@ namespace IntegracaoDominioSistemas.Tests
             Assert.AreEqual(experado, retorno);
             Assert.AreEqual(2, retorno.Length);
         }
+
+        [TestMethod]
+        public void Gerar_CampoString_BrancosDireita_Tamanho50_Test()
+        {
+            string retorno = gerarLinha.Gerar(new StringBrancosDireita() { Campo = "STR"});
+            string experado = "STR".PadRight(50, ' ');
+            Assert.AreEqual(experado, retorno);
+            Assert.AreEqual(50, retorno.Length);
+        }
+
+    }
+
+    internal class StringBrancosDireita : ILinha
+    {
+        [Posicao(1, 50)]
+        [Preencher(PreencherTipo.BrancosDireita)]
+        public string Campo { get; set; }        
     }
 
     public enum TipoEnum
