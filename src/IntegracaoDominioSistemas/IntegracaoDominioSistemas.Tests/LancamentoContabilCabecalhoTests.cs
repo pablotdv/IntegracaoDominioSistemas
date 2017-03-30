@@ -13,7 +13,7 @@ namespace IntegracaoDominioSistemas.Tests
     {
 
         [TestMethod()]
-        public void ToStringTest()
+        public void Lote_ToStringTest()
         {
             LancamentoContabilCabecalho cabecalho = new LancamentoContabilCabecalho()
             {

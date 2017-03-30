@@ -12,7 +12,7 @@ namespace IntegracaoDominioSistemas.Tests
     public class LancamentoContabilLoteTests
     {
         [TestMethod()]
-        public void ToStringTest()
+        public void Cabecalho_ToStringTest()
         {
             LancamentoContabilLote lote = new LancamentoContabilLote() {
                 CodigoSequencial = 1,
