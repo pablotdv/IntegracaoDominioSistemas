@@ -33,8 +33,7 @@ namespace IntegracaoDominioSistemas
 
                 if (posicao.Final < posicao.Inicial)
                     throw new PosicaoInvalidaException($"A posição final da propriedade {property.Name} deve ser maior que a inicial");
-
-
+                
                 //if (po)
             }
 
