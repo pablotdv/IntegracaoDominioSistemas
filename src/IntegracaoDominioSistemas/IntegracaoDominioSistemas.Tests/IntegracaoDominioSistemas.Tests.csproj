@@ -50,8 +50,16 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="GerarLinhaTests.cs" />
+    <Compile Include="LancamentoContabilLoteCabecalhoTests.cs" />
+    <Compile Include="LancamentoContabilLoteUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IntegracaoDominioSistemas\IntegracaoDominioSistemas.csproj">
+      <Project>{AE39E139-E25F-42DF-B0D6-0D9DB87C4FCA}</Project>
+      <Name>IntegracaoDominioSistemas</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
