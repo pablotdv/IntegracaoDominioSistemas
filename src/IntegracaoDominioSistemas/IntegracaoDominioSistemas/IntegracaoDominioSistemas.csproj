@@ -48,6 +48,7 @@
     <Compile Include="LancamentoContabilCabecalho.cs" />
     <Compile Include="LancamentoContabilLote.cs" />
     <Compile Include="LancamentoContabilLoteLancamento.cs" />
+    <Compile Include="LinhasAttribute.cs" />
     <Compile Include="LoteTipo.cs" />
     <Compile Include="NumericoAttribute.cs" />
     <Compile Include="PosicaoAttribute.cs" />

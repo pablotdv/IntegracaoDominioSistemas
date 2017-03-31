@@ -13,7 +13,7 @@ namespace IntegracaoDominioSistemas.Tests
     {
 
         [TestMethod()]
-        public void Lote_ToStringTest()
+        public void Cabecalho_ToStringTest()
         {
             LancamentoContabilCabecalho cabecalho = new LancamentoContabilCabecalho()
             {
@@ -28,6 +28,6 @@ namespace IntegracaoDominioSistemas.Tests
             var linha = cabecalho.ToString();
 
             Assert.AreEqual("0100000038584400000012020/03/201729/03/2017N0500000017", linha);
-        }
+        }        
     }
 }

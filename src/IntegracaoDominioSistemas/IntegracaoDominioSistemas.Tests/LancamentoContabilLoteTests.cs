@@ -11,21 +11,26 @@ namespace IntegracaoDominioSistemas.Tests
     [TestClass()]
     public class LancamentoContabilLoteTests
     {
-        [TestMethod()]
-        public void Cabecalho_ToStringTest()
+        LancamentoContabilLote lote;
+        [TestInitialize]
+        public void Initialize()
         {
-            LancamentoContabilLote lote = new LancamentoContabilLote() {
+            lote = new LancamentoContabilLote()
+            {
                 CodigoSequencial = 1,
                 Tipo = "X",
                 DataLancamento = new DateTime(2017, 03, 20),
-                Usuario = "USUSARIO.TESTE",                
+                Usuario = "USUSARIO.TESTE",
 
             };
-
+        }
+        [TestMethod()]
+        public void Lote_ToStringTest()
+        {
             string experado = "020000001X20/03/2017USUSARIO.TESTE                                                                                                                    ";
             string retornado = lote.ToString();
 
             Assert.AreEqual(experado, retornado);
-        }
+        }        
     }
 }

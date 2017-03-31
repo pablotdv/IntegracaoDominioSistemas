@@ -27,10 +27,14 @@ namespace IntegracaoDominioSistemas
         [Preencher(PreencherTipo.BrancosDireita)]
         public string Brancos { get { return ""; } }
 
+        [Linhas]
+        public List<LancamentoContabilLoteLancamento> Lancamentos { get; set; }
+        
         IGerarLinha _gerarLinha;
         public LancamentoContabilLote(IGerarLinha gerarLinha)
         {
             _gerarLinha = gerarLinha;
+            Lancamentos = new List<LancamentoContabilLoteLancamento>();
         }
 
         public LancamentoContabilLote()

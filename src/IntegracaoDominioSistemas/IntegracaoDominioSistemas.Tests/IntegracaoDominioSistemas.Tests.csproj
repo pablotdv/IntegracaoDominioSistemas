@@ -54,6 +54,7 @@
     <Compile Include="LancamentoContabilCabecalhoTests.cs" />
     <Compile Include="LancamentoContabilLoteLancamentoTests.cs" />
     <Compile Include="LancamentoContabilLoteTests.cs" />
+    <Compile Include="LancamentoContabilTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

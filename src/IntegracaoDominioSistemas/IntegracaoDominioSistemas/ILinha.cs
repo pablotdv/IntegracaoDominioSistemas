@@ -8,5 +8,6 @@ namespace IntegracaoDominioSistemas
 {
     public interface ILinha
     {
+        
     }
 }
