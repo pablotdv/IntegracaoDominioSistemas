@@ -14,7 +14,7 @@ namespace IntegracaoDominioSistemas
         [Linhas]
         public List<LancamentoContabilLote> Lotes { get; set; }
 
-        [Posicao(0,100)]
+        [Posicao(1,100)]
         public string Fim { get { return "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"; } }
 
         public LancamentoContabil()

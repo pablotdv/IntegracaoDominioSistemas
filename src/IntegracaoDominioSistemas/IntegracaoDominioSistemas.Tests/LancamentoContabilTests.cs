@@ -50,6 +50,7 @@ namespace IntegracaoDominioSistemas.Tests
             experado.AppendLine("0100000038584400000012020/03/201729/03/2017N0500000017");
             experado.AppendLine("020000001X20/03/2017USUSARIO.TESTE                                                                                                                    ");
             experado.AppendLine("030000002000150000017000000000000055000000000VLR REF                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         0000003                                                                                                    ");
+            experado.AppendLine("9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999");
 
             var retornado = lancamentoContabil.GerarTxt();
 
